@@ -1,8 +1,11 @@
 # This imports the "requests" python module that allows the REST API requst below to work correctly.
 import requests
 
+# This creates a variable that will be used inside the REST API url request to automatically detect the correct resource ID values.
+resourceId = "PlaceHolder Text"
+
 # This stores the websites REST API endpoint into a python readable variable
-gameServersHubUrl = "https://gameservershub.com/forums/api/resource-updates/turret-filler.128/"
+gameServersHubUrl = f"https://gameservershub.com/forums/api/resource-updates/{resourceId}/"
 
 # This data below adds the xenforo 2 forum software requirement for header request to validate the link above.
 payload={}
