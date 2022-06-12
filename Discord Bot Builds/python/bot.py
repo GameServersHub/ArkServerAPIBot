@@ -17,8 +17,14 @@ bot = lightbulb.BotApp(token=f"{config}", prefix="/")
 @lightbulb.implements(lightbulb.SlashCommand)
 
 async def ping(ctx: lightbulb.Context) -> None:
-    # Send a message to the channel the command was used in
+    # This creates a variable that can be referenced in other files on what choice the discord user choose when selecting the resource id name.
+    userChoice = ctx.options.resourceid
     await ctx.respond("Pong!")
+
+    # This creates a global variable that will be used inside the api file.
+    def globalUserChoice():
+        userChoice
+    globalUserChoice()
 
 # This is the ending line that tells the bot to run the code listed above.
 # The code inside the bot run tells the bot to play a activity message.
