@@ -1,8 +1,8 @@
-# GameServersHub - Server Framework Discord Bot (Open Source)
+# GameServersHub - Framework Discord Bot
 
 ###### This discord bot is 100% FREE and OPEN source for the public to use to track and monitor real time website resource updates.
 
-An official discord bot that server admins and owners can use to pull real-time website data directly into their discord. [Website Marketplace](https://gameservershub.com) created this bot for the popular " **Ark Survival Evolved**" framework, allowing server owners to host plugins on their gaming servers.
+An official discord bot that server admins and owners can use to pull real-time website data directly into their discord. [Website Marketplace](https://gameservershub.com) created this bot for the popular "[Ark Survival Evolved](https://store.steampowered.com/app/346110/ARK_Survival_Evolved/)" framework, allowing server owners to host plugins on their gaming servers.
 
 ## What is "Ark Survival Evolved"?:
 
