@@ -1,0 +1,1 @@
+An official discord bot that server admins and owners can use to pull real-time website data directly into their discord. https://gameservershub.com created this bot for the popular "Ark Survival Evolved" framework, allowing server owners to host plugins on their gaming servers.
